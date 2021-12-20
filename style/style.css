@@ -46,4 +46,71 @@ body {
 .undertitle {
   text-align: center;
 }
+
+/*-- main page's css --*/
+section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.page_title {
+  text-align: center;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.card-text::first-letter {
+  color: #3FA3C4;
+  font-size: 4rem;
+  float: left;
+  text-shadow: lightblue 3px 3px 3px;
+  line-height: 70%;
+  padding-right: 0.1 rem;
+  margin-top: 0.2rem;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+/*------------ footer's css -----------------------*/
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+#footer > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+#skyline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+#footer-text {
+  position: absolute;
+  color: lightblue;
+  z-index: 3;
+  font-size: 0.5rem;
+  left: 5%;
+  margin-top: 15%;
+}
 /*# sourceMappingURL=style.css.map */

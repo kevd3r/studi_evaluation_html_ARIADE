@@ -11,8 +11,8 @@
   <title>Infirmiers Anesthésistes La Rochelle</title>
 </head>
 <body>
-   <!--header with logo and trademark-->
-   <div class="container-fluid p-0">
+  <!--header with logo and trademark-->
+  <div class="container-fluid p-0">
     <header class="row">
       <div class="col-12" id="td-rendering">
        <a href="index.html" id="logo-link"><img src="assets/images/ariade_title_no_bg.png" alt="logo" id="logo"></a>
@@ -21,7 +21,7 @@
         <h1 class="undertitle ">Association Rochelaise des Infirmiers-Anesthésistes D.E</h1>
       </div>
     </header>
-    
+
     <!--Navigation responsive menu-->
   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -33,18 +33,86 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html">Accueil</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Articles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="evenements.html">Evènements</a>
+              <a class="nav-link" href="evenements.html">Evènements</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+
+    <!-- main page's displayed elements -->
+
+   <section class="row cols-12 justify-content-around">
+    <h2 class="page_title mb-2 pb-3">Nos missions</h2>
+    <div class="row row-cols-sm-1 row-cols-md-4 row-cols-lg-12 justify-content-around">
+      <div class="card col-sm-4 col-md-5 col-lg-3 m-2 p-2">
+        <div class="card-body">
+          <h3 class="card-header text-center">L'anesthésie</h3>
+          <img
+            src="assets/images/intubation.jpg"
+            class="card-image-top img-fluid rounded-lg"
+          alt="intubation"
+          />
+          <p class="card-text">
+            Au bloc opératoire, l'infirmier-anesthésiste est habilité à conduire seul, à la condition qu'un médecin anesthésiste 
+            puisse intervenir à tout moment, tous les types d'anesthésie pour toutes les chirurgies possibles, comme
+            défini par son <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034166859" target="_blank">décret de compétences.</a> 
+            Il surveille tous les paramètres vitaux du patient, et adapte en temps réel l'anesthésie, au moyen de tout 
+            l'arsenal thérapeutique dont il dispose.
+            </p>
+        </div>
+    </div>
+    <div class="card col-sm-4 col-md-5 col-lg-3 m-2 p-2">
+      <div class="card-body">
+        <h3 class="card-header text-center">Urgences et Réanimation</h3>
+        <img src="assets/images/smur.jpg" class="card-image-top img-fluid rounded-lg" alt="smur">
+        <p class="card-text">
+          Au sein d'une équipe pluridisciplinaire d'un Service Mobile d'Urgence et de Réanimation (S.M.U.R),
+          l'infirmier-anesthésiste est amené à participer au secours à personnes, en collaboration avec un médecin-urgentiste 
+          et un ambulancier. Bien souvent la collaboration s'étend aux pompiers et aux services de police. Il participe 
+          à la coordination des soins, dans un contexte souvent dramatique. Les soins sont variés, et englobe toute la 
+          spécialité, que ce soit en terme de réanimation, de pharmacologie, et nécessitent une formation 
+          constante dans tous ces domaines, et ce quel que soit le domaine d'intervention, terrestre, aérien ou maritime.
+        </p>
+      </div>
+    </div>
+    <div class="card col-sm-4 col-md-5 col-lg-3 m-2 p-2">
+      <div class="card-body">
+        <h3 class="card-header text-center">Gestion de la douleur</h3>
+        <img src="assets/images/salle-de-réveil.jpg"  class="card-image-top img-fluid rounded-lg" alt="salle de réveil">
+        <p class="card-text">
+          De par son expertise et sa formation, l'IADE (Infirmier-Anesthésiste Diplômé d'Etat), est amené à intervenir 
+          dans le domaine de la douleur. Il exerce notamment en Salle de Surveillance Post-Interventionnelle (S.S.P.I), 
+          d'où un patient doit ressortir soulagé de sa douleur chirurgicale. 
+          L'IADE peut intervenir aussi au sein des équipes de lutte contre la douleur, que ce soit en tant que 
+          soignant ou en tant que formateur expert au sein d'équipes soignantes afin d'optimiser la prise en charge 
+          des patients, ou de consolider un socle de connaissances concernant l'utilisation de la pharmacopée. 
+          A La Rochelle, afin de mieux prendre en charge les patients après leur chirurgie, un poste est dédié à la douleur 
+          post-chirurgicale et cet IADE va voir les patients opérés de la veille afin d'ajuster, s'il y a lieu, le traitement 
+          en coordination avec le médecin responsable.
+          </p>
+      </div>
+    </div>
+  </div>
+  </section>
+  <div class="useful-links">
+
+  </div>
+  <!--footer with La Rochelle Skyline's photo-->
+  <footer class="row m-0 p-0" id="footer">
+    <div class="col-12 m-0 p-0">
+     <img src="assets/images/La_Rochelle_Skyline.png" alt="La Rochelle Two Towers" id="skyline">
+     <h3 id="footer-text">Copyright Kdev - All Rights Reserved</h3>
+    </div>
+   
+  </footer>
 
   <script src="/node_modules/jquery/dist/jquery.min.js"></script>
   <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
