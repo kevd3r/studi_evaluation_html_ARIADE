@@ -6,11 +6,139 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Association des Infirmiers-Anesthésistes de La Rochelle, destinée à faire connaître 
   notre travail au quotidien, dans les blocs opératoires ou au sein d'un véhicule du SAMU">
-  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style/style.css">
   <title>Infirmiers Anesthésistes La Rochelle</title>
 </head>
 <body>
+  <!--header with logo and trademark-->
+  <div class="container-fluid p-0">
+    <header class="row">
+      <div class="col-12" id="td-rendering">
+       <a href="index.html" id="logo-link"><img src="assets/images/ariade_title_no_bg.png" alt="logo" id="logo"></a>
+      </div>   
+      <div class="col-12 m-0 bg-light" id="main-title">
+        <h1 class="undertitle ">Association Rochelaise des Infirmiers-Anesthésistes D.E</h1>
+      </div>
+    </header>
+
+    <!--Navigation responsive menu-->
+
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="evenements.html">Evènements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!-- events' page content-->
+    <div class="container">
+      <div class="row">
+        <h2 class="page_title mb-2 pb-3">Evènements</h2>
+      <div class="jepu-affiche mx-auto">
+        <a href="https://www.jepu.net" target="_blank" id="jepu"><img src="./assets/images/JEPU.jpeg" alt="jepu les 1 et 2 avril 2022" id="jepu-img"></a>
+      </div>
+      <div class="progam-button-class">
+        <h3 class="page_title mb-2 pb-3 mx-auto">Découvrez le programme !</h3>
+        <div class="program-button text-nowrap sm-col-10 col-md-6 mx-auto p-2">
+          <button type="button" class="btn btn-primary mx-auto w-100" data-bs-toggle="modal" data-bs-target="#jepu-program" id="jepu-modal-modal-btn">
+            Cliquez pour avoir le programme
+          </button>
+        </div>
+      </div>
+    </div>
+  <!-- modal presenting event's program -->
+    <div class="modal" id="jepu-program" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 id="program-title">Programme JEPU 2022</h3>
+            </div>
+            <div class="jepu-banner">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+          </div>    
+          <div class="modal-body">
+            <div id="jepu-img">
+              <img src="./assets/images/JEPU.jpeg"  id="jepu-logo-2" alt="bannière jepu">
+            </div>
+            <div id="modal-body-title">Programme de la première Journée</div>
+            <div id="RAAC">
+              <a href="https://www.jepu.net/programme-iade-La_RAAC__pour_qui__pour_quoi__comment__-174.html" target="_blank">
+                <span>La RAAC, pour qui, pourquoi, comment ?</span>
+              </a>
+            </div>
+            <div id="hemostase">
+              <a href="https://www.jepu.net/programme-iade-Hemostase_2022-175.html" target="_blank">
+                <span>Hémostase 2022</span>
+              </a>
+            </div>
+            <div id="modal-body-title">Programme de la deuxième Journée</div>
+            
+            <div id="human-factors">              
+              <a href="https://www.jepu.net/programme-iade-Les_facteurs_humains_:_securite__qualite_et_bien_etre_au_bloc_operatoire-177.html" target="_blank">
+                <span>Les facteurs humains : sécurité, qualité et bien-être au bloc</span>
+              </a>
+            </div>
+            <div class="frame">
+              <p>C'est ici que ça va se passer !</p>
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe width="500" 
+                    height="300" 
+                    id="gmap_canvas" 
+                    src="https://maps.google.com/maps?q=2%20Pl.%20de%20la%20Prte%20Maillot,%2075017%20Paris&t=k&z=15&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0">
+                  </iframe>
+                  <a href="https://fmovies-online.net"></a><br>
+                  <a href="https://www.embedgooglemap.net"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary w-25" id="modal-footer-close-btn" type="button" data-bs-dismiss="modal">Fermer</button>
+            <a class="btn btn-secondary w-25" 
+              href="https://www.jepu.net/inscription.html" 
+              target="_blank" 
+              role="button"
+              id="subscribe-btn"
+              >
+              S'inscrire
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+   <footer class="row m-0 p-0" id="footer">
+    <div class="col-12 m-0 p-0">
+     <img src="assets/images/La_Rochelle_Skyline.png" alt="La Rochelle Two Towers" id="skyline">
+     <h3 id="footer-text">Copyright Kdev - All Rights Reserved</h3>
+    </div>
+   
+  </footer>
   <script src="/node_modules/jquery/dist/jquery.min.js"></script>
   <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
   <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
