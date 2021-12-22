@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap");
 * {
   font-family: 'Mulish', sans-serif;
   -webkit-box-sizing: border-box;
@@ -112,5 +113,304 @@ section {
   font-size: 0.5rem;
   left: 5%;
   margin-top: 15%;
+}
+
+/*-------------- events' page's css --------------------*/
+.container {
+  height: 60vh;
+  display: block;
+}
+
+.jepu-affiche #jepu #jepu-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#jepu-img {
+  width: 100%;
+  height: auto;
+}
+
+/*-----------modal's css ---------------------------*/
+#jepu-modal-modal-btn {
+  background-color: #3FA3C4;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  background-color: lightblue;
+}
+
+.modal-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#jepu-logo-2 {
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+#program-title {
+  font-weight: bold;
+  color: #C4404B;
+}
+
+#modal-body-title {
+  font-weight: bold;
+  padding: 1em;
+  text-align: center;
+  background-color: lightblue;
+  color: #C4404B;
+}
+
+#RAAC, #hemostase, #human-factors {
+  text-align: center;
+  padding: 1.5em;
+}
+
+#modal-footer-close-btn, #subscribe-btn {
+  background-color: #3FA3C4;
+  border: none;
+}
+
+/*-- Iframe's style --*/
+.frame > p {
+  padding: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: #C4404B;
+  background-color: lightblue;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100%;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  font-family: 'Mulish', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  margin-right: 0;
+}
+
+/*------------ header and menu's css---------------*/
+#td-rendering {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#logo-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#logo {
+  width: auto;
+  height: 15vh;
+}
+
+#main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.undertitle {
+  text-align: center;
+}
+
+/*-- main page's css --*/
+section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.page_title {
+  text-align: center;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.card-text::first-letter {
+  color: #3FA3C4;
+  font-size: 4rem;
+  float: left;
+  text-shadow: lightblue 3px 3px 3px;
+  line-height: 70%;
+  padding-right: 0.1 rem;
+  margin-top: 0.2rem;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+/*------------ footer's css -----------------------*/
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+#footer > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+#skyline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+#footer-text {
+  position: absolute;
+  color: lightblue;
+  z-index: 3;
+  font-size: 0.5rem;
+  left: 5%;
+  margin-top: 15%;
+}
+
+/*-------------- events' page's css --------------------*/
+.container {
+  height: 60vh;
+  display: block;
+}
+
+.jepu-affiche #jepu #jepu-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#jepu-img {
+  width: 100%;
+  height: auto;
+}
+
+/*-----------modal's css ---------------------------*/
+#jepu-modal-modal-btn {
+  background-color: #3FA3C4;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  background-color: lightblue;
+}
+
+.modal-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#jepu-logo-2 {
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+#program-title {
+  font-weight: bold;
+  color: #C4404B;
+}
+
+#modal-body-title {
+  font-weight: bold;
+  padding: 1em;
+  text-align: center;
+  background-color: lightblue;
+  color: #C4404B;
+}
+
+#RAAC, #hemostase, #human-factors {
+  text-align: center;
+  padding: 1.5em;
+}
+
+#modal-footer-close-btn, #subscribe-btn {
+  background-color: #3FA3C4;
+  border: none;
+}
+
+/*-- Iframe's style --*/
+.frame > p {
+  padding: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: #C4404B;
+  background-color: lightblue;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100%;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */
