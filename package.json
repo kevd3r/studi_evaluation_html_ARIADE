@@ -1,13 +1,13 @@
 {
   "name": "studi_evaluation_html_ariade",
   "version": "1.0.0",
-  "description": "",
+  "description": "Association des Infirmiers Anesthesistes de La Rochelle",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kevin Derot",
   "license": "ISC",
   "dependencies": {
     "@popperjs/core": "^2.11.0",

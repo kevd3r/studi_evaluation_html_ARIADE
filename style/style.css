@@ -413,4 +413,26 @@ iframe {
   width: 100%;
   height: auto;
 }
+
+/*-- useful links' css --*/
+.useful-links, .logo-useful-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.useful-links > h3 {
+  text-align: center;
+}
+
+.logo-useful-links {
+  height: 10vh;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logo-useful-links > a > img {
+  height: 100%;
+}
 /*# sourceMappingURL=style.css.map */

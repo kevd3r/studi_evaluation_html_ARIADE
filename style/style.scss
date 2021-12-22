@@ -338,3 +338,19 @@ iframe{
   width: 100%;
   height: auto;
 }
+
+/*-- useful links' css --*/
+.useful-links, .logo-useful-links{
+  display: flex;
+}
+.useful-links>h3{
+  text-align: center;
+}
+.logo-useful-links{
+  height: 10vh;
+  width: 100%;
+  justify-content: space-around;
+}
+.logo-useful-links>a>img{
+  height: 100%;
+}
