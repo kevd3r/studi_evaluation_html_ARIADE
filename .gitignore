@@ -2,7 +2,7 @@
 .vscode
 
 #excluding node_modules
-#node_modules
+node_modules
 
 #excluding eventual .pdf documents
 *.pdf
